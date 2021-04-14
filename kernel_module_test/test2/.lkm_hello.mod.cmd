@@ -1,0 +1,1 @@
+cmd_/home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.mod := { echo  /home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.o; echo; } > /home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.mod

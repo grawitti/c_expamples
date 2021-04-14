@@ -1,0 +1,1 @@
+cmd_/home/builder/host/Examples/c/kernel_module_test/ebb_3/gpio_test.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/builder/host/Examples/c/kernel_module_test/ebb_3/gpio_test.ko /home/builder/host/Examples/c/kernel_module_test/ebb_3/gpio_test.o /home/builder/host/Examples/c/kernel_module_test/ebb_3/gpio_test.mod.o ;  true

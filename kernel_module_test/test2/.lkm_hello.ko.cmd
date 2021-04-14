@@ -1,0 +1,1 @@
+cmd_/home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.ko /home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.o /home/ruslan/Examples/c/kernel_module_test/test2/lkm_hello.mod.o;  true

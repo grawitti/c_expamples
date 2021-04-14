@@ -1,0 +1,1 @@
+cmd_/home/builder/host/Examples/c/kernel_module_test/ebb_2/ebbchar.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/builder/host/Examples/c/kernel_module_test/ebb_2/ebbchar.ko /home/builder/host/Examples/c/kernel_module_test/ebb_2/ebbchar.o /home/builder/host/Examples/c/kernel_module_test/ebb_2/ebbchar.mod.o ;  true
